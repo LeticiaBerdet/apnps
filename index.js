@@ -10,7 +10,11 @@ app.get('/msg', function(req,res){
 })
 
 app.get('/sobre', function(req,res){
-    res.send("Essa pagina esta sendo desenvolvida por Leticia")
+    res.send("Esta pagina esta sendo desenvolvida por Leticia")
+})
+
+app.get('/layout', function(req,res){
+    res.send("Esse é o novo layout!")
 })
 
 
